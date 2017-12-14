@@ -1,0 +1,33 @@
+/*barra de navegacion*/
+
+.navbar-default{
+ border: 2px solid white;
+}
+.navbar-header{
+  background: white;
+}
+.logo{
+  width: 120px;
+  margin: 40px;
+}
+.navbar-toggle{
+  float: left;
+}
+.navbar-nav li {
+  margin: 20px;
+}
+.navbar-collapse{
+  background: white;
+  font-family: 'Crete Round', serif;
+}
+
+@media (min-width: 768px) {
+  .navbar, .navbar-header{
+    background: white;
+  }
+  .navbar-collapse{
+    background: white;
+    float: right;
+  }
+
+  /*----------------------------------*/
