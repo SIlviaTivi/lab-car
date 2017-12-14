@@ -29,5 +29,38 @@
     background: white;
     float: right;
   }
+}
+  /*-----SECTION 1----------------*/
+  /*-----background  taxi-----------------*/
 
-  /*----------------------------------*/
+  .fig-taxi{
+    outline: 1px solid green;
+    background-image: url("../assets/images/taxi.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 2000px;
+    background-size: 100vw auto;
+    z-index: -999;
+  }
+  .fig-taxi{
+    position: absolute;
+    clip: rect(170px,auto,auto,auto);
+    top: -70px;
+    }
+
+@media (min-width: 768px) {
+  .fig-taxi{
+    position: absolute;
+    clip: rect(1025px,auto,auto,auto);
+    top: -925px;
+    }
+}
+
+@media (min-width: 1200px) {
+  .fig-taxi{
+    position: absolute;
+    clip: rect(1370px,auto,auto,auto);
+    top: -1270px;
+    }
+}
+  /*-----box orngei-----------------*/
